@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Header</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- manual css is added here -->
+    <link rel="stylesheet" href="/CSS/style.css">
+  </head>
+  <body>
+    <div class="fixed-top">
+      <nav class="navbar-sm navbar-expand-lg bg-navbar" data-bs-theme="dark">
+        <div class="container-fluid">
+          <div class="row w-100">
+            <div class="col-lg-3 col-sm-12">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.32i9tTkZgahfR4uhIe1R0gHaEH&pid=Api&P=0&h=180"
+                  alt="Bootstrap"
+                  width="50em"
+                  height="50em"
+                  class="rounded-circle border mb-1"
+                />
+                <span class="navbar-brand brand-font">Businice</span>
+              </a>
+
+              <button
+                class="navbar-toggler float-end"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon  nav-toggle-btn"></span>
+              </button>
+            </div>
+            <div
+              class="col-lg-9 collapse navbar-collapse justify-content-between"
+              id="navbarSupportedContent"
+            >
+              <!-- search field started here -->
+              <div class="col-lg-6 col-sm-12 mx-auto">
+                <div
+                  class="input-group rounded search-query w-100 input-bg-color"
+                >
+                  <input
+                    type="text"
+                    class="form-control h-25"
+                    placeholder="Product name, Category name etc."
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button class="btn btn-sm" type="button" id="button-addon2">
+                    <!-- added search button using fontawesome in search field -->
+                    <i
+                      class="fa-solid fa-magnifying-glass icon-hover"
+                      style="color: rgb(143, 117, 61)"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+              <!-- search field ended here -->
+              <!-- column for login and cart button started from here -->
+              <div class="col-lg-3 col-sm-12">
+                <ul class="navbar-nav float-lg-end float-sm-start">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/login.html"
+                      ><button type="btn" class="login-btn">
+                        <i class="fa-solid fa-user m-1"></i>Login
+                      </button></a
+                    >
+                  </li>
+                  <li class="nav-item m-2">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/cart.html"
+                    >
+                      <i
+                        class="fa fa-cart-shopping cart-icon"
+                        style="
+                          font-size: 20px;
+                          color: rgb(130, 101, 12);
+                          margin-left: 5px;
+                        "
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav tabs started from here created this with bootstrap readymade code and changed that code
+    accordingly -->
+      <ul class="nav justify-content-center container bg-warning">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/All Pages/products.html">All Products</a>
+        </li>
+        <li class="nav-item" id="women" style="cursor: pointer;">
+          <div class="dropdown" >
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              class="women-show"
+            >
+              Women
+            </a>  
+            <ul class="dropdown-menu dropdown-menu-women">
+              <li>
+                <a class="dropdown-item" href="/All Pages/Women/women.html"
+                  >All Products</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/All Pages/Women/dresses.html"
+                  >dresses</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/All Pages/Women/Pants.html"
+                  >Pants</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/All Pages/Women/skirts.html"
+                  >skirts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item" id="men" style="cursor: pointer;">
+          <div class="dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Men
+            </a>
+            <ul class="dropdown-menu dropdown-menu-men">
+              <li>
+                <a class="dropdown-item" href="/All Pages/Men/men.html"
+                  >All Products</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="/All Pages/Men/hoddies.html">Hoddies</a></li>
+              <li><a class="dropdown-item" href="/All Pages/Men/pants.html">Pants</a></li>
+              <li><a class="dropdown-item" href="/All Pages/Men/shirts.html">Shirts</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/All Pages/kids.html">kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+    <script>
+      $('#women').mouseover(function(){
+        $(".dropdown-menu-women").show();
+      })
+      $('#women').mouseout(function(){
+        $(".dropdown-menu-women").hide();
+      })
+      $('#men').mouseover(function(){
+        $(".dropdown-menu-men").show();
+      })
+      $('#men').mouseout(function(){
+        $(".dropdown-menu-men").hide();
+      })
+    </script>
+  </body>
+  
+</html>
+    <!-- header started from here -->
+    <!-- styling the background color using manual css with class bg-navbar  -->
+    
+      <!-- header ended here -->

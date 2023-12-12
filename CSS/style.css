@@ -1,0 +1,449 @@
+/* google font added */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Henny+Penny&family=Merriweather&family=Monoton&family=Montserrat:wght@900&family=PT+Serif:wght@400;700&family=Playpen+Sans:wght@800&family=Princess+Sofia&family=Source+Code+Pro&family=Ubuntu:wght@300&display=swap");
+
+/* styling the navbar */
+.bg-navbar {
+  background-color: #d0c6a6;
+}
+.brand-font {
+  font-family: "Princess Sofia", sans-serif;
+  font-size: 3rem;
+  color: #53539d;
+  font-weight: bolder;
+  margin-top: 10px !important;
+}
+.brand-font:hover {
+  color: White;
+}
+.input-bg-color {
+  background-color: rgb(88 179 130 / 36%);
+  border-color: #a19382bf;
+}
+.search-button {
+  background-color: #4caf506e;
+  width: 2.5rem;
+  border-color: #2bc;
+}
+/* cart icon on hover */
+.cart-icon:hover{
+  color:#d9eee9 !important;
+  font-size:22px !important;
+}
+/* on hovering the search icon */
+.icon-hover:hover{
+  color:antiquewhite !important;
+}
+/* Login css btn on home page is created using css3 button generator  */
+.login-btn {
+  font-size: 1rem;
+  font-family: Comic Sans MS;
+  width: 90px;
+  height: 32px;
+  border-width: 2px;
+  color: rgba(187, 215, 221, 1);
+  border-color: rgba(114, 97, 68, 1);
+  font-weight: bold;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  box-shadow: -4px 2px 11px 4px rgba(223, 206, 177, 1);
+  text-shadow: 0px 1px 0px rgba(136, 137, 148, 1);
+  background: linear-gradient(rgba(202, 134, 72, 1), rgba(93, 71, 93, 1));
+}
+
+.login-btn:hover {
+  background: linear-gradient(rgba(93, 71, 93, 1), rgba(202, 134, 72, 1));
+}
+/* styling the toggler button */
+.nav-toggle-btn {
+  background-color: #7a4346;
+  font-size: large;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+/* button created using css3 button generator:--> Login button contact form*/
+.btn-contact {
+  background: #ebbfd3;
+  background-image: -webkit-linear-gradient(top, #ebbfd3, #c0c49f);
+  background-image: -moz-linear-gradient(top, #ebbfd3, #c0c49f);
+  background-image: -ms-linear-gradient(top, #ebbfd3, #c0c49f);
+  background-image: -o-linear-gradient(top, #ebbfd3, #c0c49f);
+  background-image: linear-gradient(to bottom, #ebbfd3, #c0c49f);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 3px 2px 3px #666666;
+  -webkit-box-shadow: 2px 2px 3px #666666;
+  -moz-box-shadow: 2px 2px 3px #666666;
+  box-shadow: 2px 2px 3px #666666;
+  font-family: Georgia;
+  color: #7a4346;
+  font-size: 19px;
+  /* padding: 5px 20px 10px 20px; */
+  border: solid #598579 5px;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background: #a4d2eb;
+  background-image: -webkit-linear-gradient(top, #a4d2eb, #d6aa8d);
+  background-image: -moz-linear-gradient(top, #a4d2eb, #d6aa8d);
+  background-image: -ms-linear-gradient(top, #a4d2eb, #d6aa8d);
+  background-image: -o-linear-gradient(top, #a4d2eb, #d6aa8d);
+  background-image: linear-gradient(to bottom, #a4d2eb, #d6aa8d);
+  text-decoration: none;
+}
+/* styling the login form */
+.margin-form {
+  margin: 7rem;
+}
+/* styling the content on home image carousel */
+.div-text {
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 15%;
+}
+.businice-logo {
+  /* background-color: white; */
+  z-index: 4;
+  color: #161922;
+  display: inline;
+  font-size: 5rem;
+  font-family: "Princess Sofia", sans-serif;
+  font-weight: 900;
+  text-shadow: 5px 5px #5ab446;
+}
+
+/* CART STYLING */
+/*  added style to the border also using css in cart-item column  */
+.border-info,
+.border-bottom {
+  border-width: 2px !important;
+  border-radius: 2px;
+}
+/* styling the plus and minus sighn on cart  */
+.span-icon{
+  height:1.5rem;
+  margin-top: 0.7rem;
+  border-radius: 45%;
+  background-color: #d0b680;
+}
+/* item-cart class   */
+/* styling the summary row of cart */
+.item-cart {
+  height: 23% !important;
+  background-color: #e4c66d;
+}
+.h1-summary {
+  background-color: #e4c66d;
+}
+.delete-icon {
+  max-height: 25px !important;
+  max-width: 25px !important;
+  background-color: rgb(239, 204, 129);
+
+}
+.border-info {
+  border-color:rgb(228, 218, 185) !important;
+}
+.cart-margin {
+  margin-top: 10rem;
+}
+
+/* checKout button styling is done with the help of css3 button generator */
+.buttonClass {
+  font-size: 19px;
+  font-family: Comic Sans MS;
+  width: 109px;
+  height: 37px;
+  border-width: 2px;
+  color: rgba(225, 231, 203, 1);
+  border-color: rgba(177, 173, 160, 1);
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 5px 5px 2px 2px rgba(236, 211, 140, 1);
+  text-shadow: 0px 1px 23px #ffffff;
+  background: linear-gradient(rgba(63, 48, 20, 1), rgba(80, 73, 55, 1));
+}
+
+.buttonClass:hover {
+  background: linear-gradient(rgba(80, 73, 55, 1), rgba(63, 48, 20, 1));
+}
+
+/* CAROUSEL FEATURED PRODUCTS STYLING */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card-carousel {
+  width: calc(100% / 5);
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px 5px rgb(75, 80, 82);
+}
+.carousel-control-prev-icon {
+  margin-left: -120px;
+  margin-top: -20px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(152, 94, 106) !important;
+  color: beige !important;
+}
+.carousel-control-next-icon {
+  margin-right: -120px;
+  margin-top: -20px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(152, 94, 106) !important;
+  color: beige !important;
+}
+
+/* showing the only first  cards of card-carousel for small sized screen */
+@media screen and (min-width: 279px) and (max-width: 576px) {
+  .card:not(:first-child) {
+    display: none;
+  }
+  .card {
+    width: 100%;
+  }
+  .carousel-control-prev-icon {
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .carousel-control-next-icon {
+    margin-right: -20px;
+    margin-top: -20px;
+  }
+  .card-img-top {
+    height: 25vh;
+  }
+  .card-body {
+    height: 20vh;
+  }
+  /* styling the carousel image for smaller screen */
+  .carousel-image{
+    height:25rem !important;
+  }
+  /* styling the content on image  */
+  .div-text {
+    position: absolute;
+    margin-top: -300px;
+  }
+  .businice-logo {
+    font-size: 1.5rem;
+    margin: auto !important;
+  }
+  /* styling the form for smaller devices */
+  .form-width {
+    width: 15rem;
+    margin: 3rem auto auto auto;
+  }
+  .h1-login-form {
+    margin-top: 6rem !important;
+  }
+  .contact-img{
+    margin:5% 1% 1% 0 !important;
+  width: 100% !important; 
+  
+  }
+  .contact-form-div{
+    width:85% !important;
+    margin-left: 6%;
+  }
+  .nav-toggle-btn {
+    background-color: #7a4346;
+    font-size: large;
+    margin-top: 1.5rem;
+    margin-left: 4px;
+   
+    border-radius: 5px;
+  }
+  .contact-form{
+    margin-left: 3rem;
+
+  }
+  .contact-row{
+    margin-top: 13rem !important;
+  }
+  .span-icon {
+    height:1.5em;
+    /* margin:0; */
+
+  }
+  /* styling the arrow button for smaller devices  */
+  .arrow-up{
+    margin-top: -180% !important;
+  }
+  .cart-margin{
+    margin-top: 13rem !important;
+  }
+}
+/* login-form Styling */
+.form-width {
+  margin: 3rem auto auto auto;
+}
+/* hiding the last two cards of card-carousel for medium sized screen */
+@media screen and (min-width: 576px) and (max-width: 912px) {
+  .card-carousel:nth-last-child(1),
+  .card:nth-last-child(2) {
+    display: none;
+  }
+  .card-carousel {
+    width: calc(100% / 3);
+  }
+  .card-img-top {
+    height: 25vh;
+  }
+  .contact-form-div{
+    width:85% !important;
+    margin-left: 6%;
+    
+  }
+  .card-body {
+    height: 20vh;
+  }
+  .div-text {
+    position: absolute;
+    margin-top: -300px;
+  }
+  .businice-logo {
+    font-size: 3rem;
+  }
+  /* styling the contact-image for medium sized screen */
+  .contact-img{
+    margin-left:0 !important;
+    width:700px !important;
+  }
+}
+/* Styling FOOTER */
+/* giving styles to icons */
+.icons .link-hover:hover {
+  color: rgb(235, 185, 185) !important;
+  
+}
+.bg-dark {
+  background-color: #89826e !important;
+}
+/* had to look later */
+/* @media screen and(max-width:576px) {
+  .all-links{
+    margin-left:  0 !important;
+  }
+} */
+
+/* CART-ADD to CART BUTTON STYLING */
+
+.cart-btn {
+  font-size: 15px;
+  font-family: Comic Sans MS;
+
+  height: 35px;
+  border-width: 2px;
+  color: #fff;
+  border-color: rgba(97, 100, 180, 1);
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  box-shadow: inset -10px -7px 6px -6px #23395e;
+  text-shadow: inset -43px 50px 48px #263666;
+  background: linear-gradient(rgba(56, 61, 136, 1), rgba(30, 150, 153, 1));
+}
+
+
+
+
+.cart-btn:hover {
+  background: linear-gradient(rgb(123, 213, 214), rgba(56, 61, 136, 1));
+}
+/* add to cart styling ended  */
+
+/* Styling PRODUCTS PAGE */
+.card-products {
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px 5px rgb(75, 80, 82);
+}
+.card-products:hover{
+  transform: scale3d(0.95, 0.95, 0.95);
+  cursor:pointer;
+}
+/* setting the products page for larger screen */
+@media screen and (min-width: 821px) {
+  .product-page-m {
+    margin-top: 7rem;
+  }
+  .card-img-top {
+    height: 40vh;
+  }
+}
+
+/* setting the products page for smaller screen */
+@media screen and (min-width: 279px) and (max-width: 576px) {
+  .product-page-m {
+    margin-top: 12rem;
+  }
+  .card-products {
+    justify-self: center;
+    margin: 0 !important;
+    /* margin-top: 2vh; */
+    margin-bottom: 2vh !important;
+  }
+  .card-img-top {
+    height: 25vh;
+  }
+  .card-body {
+    height: 11rem;
+  }
+}
+/* styling the contact form */
+
+.contact-form input{
+  border:2px solid #73a197;
+  width:95%;
+  border-radius: 20px;
+}
+.contact-form textarea{
+  border:2px solid #73a197;
+  width:95%;
+  border-radius: 20px;
+}
+/* media query for products page for medium sized screen */
+@media only screen and (min-width: 568px) and (max-width: 820px) {
+  .product-page-m {
+    margin-top: 14%;
+  }
+  .card-products {
+    justify-self: center;
+    margin: 1rem;
+    /* margin: 0 !important; */
+    /* margin-top: em; */
+    /* margin-bottom: 10em !important; */
+  }
+  .card-hide:nth-last-child(1) {
+    display: none;
+  }
+  .card-hide {
+    width: calc(100% / 3);
+  }
+  .card-img-top {
+    height: 23vh;
+  }
+}
+
+/* styling the card */
+
+/* @media screen and (min-width:576px)and max- {
+.card-img-top{
+  height:18vw;
+
+}
+} */

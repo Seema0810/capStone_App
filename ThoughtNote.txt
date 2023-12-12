@@ -1,0 +1,115 @@
+     E-COMMERCE PROJECT
+------------------------------
+*All the buttons of website is created using css3 button generator to make them more attractive.
+*Pages are responsive according the screen sizes.
+
+Index Page:
+===========
+--Index page consists of: Navbar and Navtabs--> IMAGE-carousel-->Featured Products-->Footer and a button to 
+go up.
+
+//Navbar and NavTabs:(Header)
+
+>>Header is added dynamically using jquery to all pages.
+>Navbar is created using the bootstrap classes for which CDN bootstrap css and CDN bootstrap js is added
+in the file it is required.
+
+Navbar contains:
+
+1)image and brandname{brandname is having hover effect} 
+2)SearchBar with addon buttons(created using favicon search icon with hover effect).For this Fontawesome 
+link is added in header section.
+3)Login and Cart button with hover effect on it.These button will redirect you on the login and cart 
+page respectively.
+
+NavTabs contains:
+>>Home, All Products, Women (with dropdown), Men(with dropdown), kids, Contact .
+All these links will redirect to the respective pages.
+=======================================================================================
+*Used Jquery to hide and show the dropdown of women and men for which mouseover and mouseout event is used.
+========================================================================================
+
+Home mage carousel:
+_____________________
+.carousel of three images is created with the bootstrap template of carousel. And text is written by
+using position property to an div element. Google Fonts is used for Businice! Keep shopping.
+
+Featured Products:
+====================
+For featured products also bootstrap carousel used in which for each image 5 cards are added for large
+screen, for medium sized screen 3 cards will be shown and for smaller screen only one card
+will be shown.
+--> Media query and bootstrap class is used to make it responsive.
+-->And the button Add to cart is created with css3 button generator.
+-->border and box shadow is given to all the cards.
+So, The featured products is responsive for all the screens.
+
+Footer:
+===========
+Trying to keep is simple, uses grid system to create footer also.In which 2 row are created.
+1 for facebook, instagram, twitter, google.Hover effect is given to all social links.
+-->target is given blank to all the social links.
+and another row for to list the items.
+1-column for women, 1-column for men, 1-column for kids and the last column for the links.
+Links are created with their font icon also. 
+--created a divider to seperate the link and the copyright message at the bottom of the footer.
+
+Login Page:
+===========
+For this page, grid system of bootstrapis used.
+A form is created using bootstrap form with heading Login on top.
+Container fluid class is used for the form.
+*javascript is used to make the validations:
+On entering the e-mail(admin@admin.com)and the password(12345678)it will show and alert saying
+"login successful" otherwise "Incorrect e-mail or password". 
+*Minlength* property is used for password must be of atleast 8 characters.*
+_______________________________________________
+*Please enter "12345678" as password value.
+______________________________________________
+
+Cart Page:
+===========
+*cart page is created with the help of bootstrap grid.
+cart is divided in two columns.
+1 for listing the items another for the item summary. checkout button is also added
+as per included ecommerce project assignment.
+1 column is divided into 3 more columns. 1-for image other is product-information and last but not the least for 
+increasing and decreasing the no. of same products.
+
+Contact Page:
+=============
+.Contact page is created as per specified in the assignment.
+2 col are created : 1 for image and another for Contact-person details.
+created using bootstrap form.
+3 input elements created 1 for name. 
+Name input -> has Minlength and maxlength property, pattern is also added  and made this field required.
+E-mail->  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" (made this input required also)
+                    minlength="10"
+                    maxlength="32"
+textarea->    pattern="[A-Za-z]{5,300}"(these are extra things that has been added)
+                required 
+
+Products Page:
+==============
+*Separate folder is created All Pages-->Products,Women->(dresses, pants, skirts, women),Men->(shirts, pants, hoodies, men),Kids 
+All the products pages are created using grid system of bootstrap.
+within each column card is used with shadow.
+each card created as mentioned in the assignment.
+All the links of products are working.
+transform property is used to scale it in 3D.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
